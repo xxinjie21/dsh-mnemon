@@ -1,0 +1,11 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "payload/runtime/memories.json": "7c1051f6e2bc3943b7c1dbe4da229694455681b8875a346c99279e555edb733f",
+    "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "payload/runtime/MEMORY.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "payload/documents/index.json": "a2c725c8818d42a2177208817c108e7fa010feb5890ff9cfb3d86455e0be9c3a",
+    "payload/documents/active/dsh-mnemon-profile-cordis-patch-yml-mnemon-bf2bcf5d.md": "ee8ad5a4366e1d914992e5c30b12d7a472502d149eab1af252dbcbd5fb644199",
+    "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
+  }
+}

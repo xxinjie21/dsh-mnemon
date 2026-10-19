@@ -1,0 +1,47 @@
+{
+  "format": "mnemonpack",
+  "version": 1,
+  "scope": "full",
+  "exportedAt": "2026-10-19T16:20:12.585Z",
+  "source": {
+    "plugin": "dsh-mnemon",
+    "pluginVersion": "0.5.32"
+  },
+  "components": [
+    "runtime",
+    "documents",
+    "memory-spaces"
+  ],
+  "summary": [
+    {
+      "component": "runtime",
+      "files": 3,
+      "bytes": 36,
+      "items": 0
+    },
+    {
+      "component": "documents",
+      "files": 2,
+      "bytes": 5644,
+      "items": 1
+    },
+    {
+      "component": "memory-spaces",
+      "files": 1,
+      "bytes": 35,
+      "items": 0
+    }
+  ],
+  "sync": {
+    "channel": "git",
+    "branch": "mnemon-sync",
+    "subdir": "mnemon/",
+    "pushedAt": "2026-10-19T16:20:12.585Z",
+    "machine": {
+      "id": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
+      "label": "LAPTOP-UHF40HQF",
+      "createdAt": "2026-10-19T15:51:18.424Z"
+    },
+    "tombstones": []
+  }
+}
