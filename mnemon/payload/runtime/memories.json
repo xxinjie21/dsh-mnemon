@@ -1,4 +1,101 @@
 {
   "version": 1,
-  "entries": []
+  "entries": [
+    {
+      "content": "DSH skills-manager (dsh-skills-manager 插件) 的 skill 启用状态存于 ~/.dsh/skills-manager/state.json；disabledSkills[rootKey] 在插件加载时过滤 skill（rootKey `agents` 对应 DSH_AGENTS_HOME || ~/.agents），skills 目录在会话启动时装配，改动后需重载 DSH 才对新会话生效。UI 与直接编辑该文件是同一份状态。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-10-19T16:31:04.427Z",
+      "updated_at": "2026-10-19T16:31:04.427Z",
+      "origin": {
+        "machine": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
+        "label": "LAPTOP-UHF40HQF",
+        "at": "2026-10-19T16:31:04.427Z"
+      }
+    },
+    {
+      "content": "本项目（tcm-ehr-qc）约定：改完代码必须自行验证；改动只提交，不推送远端，推送需用户明确指示。修改 Java 源码后需 mvn clean 再测（ops_edit_file 保留原 mtime，会致 Maven 增量编译跳过已改文件）。",
+      "target": "memory",
+      "importance": "critical",
+      "created_at": "2026-10-20T02:25:11.061Z",
+      "updated_at": "2026-10-20T02:25:11.061Z",
+      "origin": {
+        "machine": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
+        "label": "LAPTOP-UHF40HQF",
+        "at": "2026-10-20T02:25:11.061Z"
+      }
+    },
+    {
+      "content": "用户不接受在已居中的 flex 按钮区内追加控件（会让按钮被顶偏）；Governance.vue 清洗按钮区的开关等新控件要放独立一行，原按钮区保持原样。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-10-20T15:47:31.837Z",
+      "updated_at": "2026-10-20T15:47:31.837Z",
+      "origin": {
+        "machine": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
+        "label": "LAPTOP-UHF40HQF",
+        "at": "2026-10-20T15:47:31.837Z"
+      }
+    },
+    {
+      "content": "tcm-ehr-qc 项目的标准是「完成学校科研实践作业、只需项目演示，不真实上线」；对科研演示完全多余的功能可以直接删减，是否删除还要考虑答辩时能否把取舍讲清楚。",
+      "target": "user",
+      "importance": "critical",
+      "created_at": "2026-10-24T14:43:34.370Z",
+      "updated_at": "2026-10-24T14:43:34.370Z",
+      "origin": {
+        "machine": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
+        "label": "LAPTOP-UHF40HQF",
+        "at": "2026-10-24T14:43:34.370Z"
+      }
+    },
+    {
+      "content": "tcm-ehr-qc 的 AI 智能解读三个功能（质控解读 AiInterpretCard / 术语补词建议 termsuggest / AI 预检建议 runAiAsync('review')）均已确认保留、不删：三者都有真实调用方，且 LLM 未启用时有降级（显示「规则预检」），演示不会翻车。曾误判 aiReview() 为死代码而删掉前端同步封装——实际该功能走异步路 runAiAsync，/ai/review 端点与 AiService.review() 未受影响。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-10-24T16:17:48.037Z",
+      "updated_at": "2026-10-24T16:17:48.037Z",
+      "origin": {
+        "machine": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
+        "label": "LAPTOP-UHF40HQF",
+        "at": "2026-10-24T16:17:48.037Z"
+      }
+    },
+    {
+      "content": "产品要方便用户直接用：不要堆砌晦涩难懂的专业术语（如 scope、trace、p2p 等内部词），界面用词要通俗、以中文说明结果。",
+      "target": "user",
+      "importance": "critical",
+      "created_at": "2026-10-28T14:31:10.794Z",
+      "updated_at": "2026-10-28T14:31:10.794Z",
+      "origin": {
+        "machine": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
+        "label": "LAPTOP-UHF40HQF",
+        "at": "2026-10-28T14:31:10.794Z"
+      }
+    },
+    {
+      "content": "AgentMesh 测试口径：按里程碑统一跑——每个 M 只跑一次该 M 全部 task 的测试（npm run test:mN），不按单个 task 分别跑；真机 e2e 另跑并记入证据文档。",
+      "target": "memory",
+      "importance": "critical",
+      "created_at": "2026-10-28T18:22:41.496Z",
+      "updated_at": "2026-10-28T18:22:41.496Z",
+      "origin": {
+        "machine": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
+        "label": "LAPTOP-UHF40HQF",
+        "at": "2026-10-28T18:22:41.496Z"
+      }
+    },
+    {
+      "content": "用户偏好：工具调用不要太频繁，尽量省 token；token 优先花在写代码和方案思考上，测试合并成一次跑。",
+      "target": "user",
+      "importance": "normal",
+      "created_at": "2026-10-29T01:48:32.628Z",
+      "updated_at": "2026-10-29T01:48:32.628Z",
+      "origin": {
+        "machine": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
+        "label": "LAPTOP-UHF40HQF",
+        "at": "2026-10-29T01:48:32.628Z"
+      }
+    }
+  ]
 }
