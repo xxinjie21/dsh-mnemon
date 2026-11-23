@@ -2,10 +2,10 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-10-29T13:37:42.916Z",
+  "exportedAt": "2026-11-23T09:59:40.677Z",
   "source": {
     "plugin": "dsh-mnemon",
-    "pluginVersion": "0.5.32"
+    "pluginVersion": "0.5.52"
   },
   "components": [
     "runtime",
@@ -16,14 +16,14 @@
     {
       "component": "runtime",
       "files": 3,
-      "bytes": 6816,
-      "items": 8
+      "bytes": 7424,
+      "items": 9
     },
     {
       "component": "documents",
-      "files": 50,
-      "bytes": 378035,
-      "items": 49
+      "files": 64,
+      "bytes": 469917,
+      "items": 63
     },
     {
       "component": "memory-spaces",
@@ -36,7 +36,7 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-10-29T13:37:42.916Z",
+    "pushedAt": "2026-11-23T09:59:40.677Z",
     "machine": {
       "id": "5b2d352b-7284-4357-9a93-71aa3f0a1c47",
       "label": "LAPTOP-UHF40HQF",

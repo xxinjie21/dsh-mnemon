@@ -1,10 +1,10 @@
 {
   "algorithm": "sha256",
   "files": {
-    "payload/runtime/memories.json": "b6097420a6d39d7e9d45f39cd6c258556717a197e3f9a9879f3a0da39051b4c1",
-    "payload/runtime/USER.md": "768615e54c1390e9f14b5c2f1b948286179c4dd4021620d47c5a7cc02ba3cfca",
+    "payload/runtime/memories.json": "24386c810c898b5767ead4fe9542660557217002d008a4cb0863f9452a6d4dee",
+    "payload/runtime/USER.md": "f694e1dd440106d2927cd839cc25e5e8c1fe8fac7631b8519b233dd2a99787b5",
     "payload/runtime/MEMORY.md": "8cbb6418761672a77e0ebad7823eb32ab3b3b6930ab15db79f6eb0bffec19c1d",
-    "payload/documents/index.json": "37ae9446d79230dedd0363144983b01824a3bb2bf06b521d20cfa7049eeb45ed",
+    "payload/documents/index.json": "5184c99ba627bfd0be15d62a1ba89df0548de3b856d52b3749fe8ebaca892f19",
     "payload/documents/active/dsh-mnemon-profile-cordis-patch-yml-mnemon-bf2bcf5d.md": "ee8ad5a4366e1d914992e5c30b12d7a472502d149eab1af252dbcbd5fb644199",
     "payload/documents/active/agents-skills-aegis-skill-trigger-7bec5266.md": "80e65794d39e4bde10b8938ea625951afbbc999c00ce6ee855015203143a0d5d",
     "payload/documents/active/dsh-lsp-actions-npm-bin-path-profile-5f77390e.md": "4fe004f4e021bf2d80b56b526f831b53a07e0e10a1878f51ee1a6c24c64290f6",
@@ -54,6 +54,20 @@
     "payload/documents/active/agentmesh-prd-4-1-74ed2e47.md": "65b96c6b388d6627c0de676a524b93f44dc97aee39dc644c82e7cc61db882235",
     "payload/documents/active/agentmesh-m1-m10-c16-938fa791.md": "a889d46f5e983bf8f9b2a68063587914cfd50bb848245ec66db346db5820f498",
     "payload/documents/active/agentmesh-m4-m5-ui-gate-1-66473cbd.md": "67b812511c2e9f93c06c6c6643a100b63823f10e04b19d22131a2788d91db3fa",
+    "payload/documents/active/agentmesh-m1-m10-ec93dea0.md": "52dc6960050760de1bfac53f2967a9c898d7c913243f6f877a148f5ced7888f9",
+    "payload/documents/active/agentmesh-ui-f772c2e3.md": "e957ade8d0f655933937e25f02d9e7fa25feabd1a8a4ffc20a640076f9907328",
+    "payload/documents/active/agentmesh-ui-b293114-52e57cb7.md": "e605d44b2951c4c8bf94a0137fd3f04fe03d2d76049cb07a7ba1eda63ece7b0c",
+    "payload/documents/active/agentmesh-55c05f2-5ef8fab-989a05b-73b7a161.md": "257a6726012a49bd1a17341d2cb7cb55a32ff0067c59d21e3d2d4a0b2cd50363",
+    "payload/documents/active/agentmesh-links-dd5cce32.md": "f41128467ada9b29008e583e1ba3515624509351ff3b3c1b69a0570e23fdd68a",
+    "payload/documents/active/agentmesh-token-e6239e87.md": "6af431d7cfb79b43c529cc0932f637e8d09b40cd78319d44a5fa2a32e8f5d0f7",
+    "payload/documents/active/agentmesh-a-f-gate-g0-g6-31c40d8c.md": "ab4fca35d80a843ad364094b8f9691ce9371e45bb3efdc00a6c8b0bb8bc3997d",
+    "payload/documents/active/agentmesh-672f0d19.md": "3aa38ac16cc823a1874cc578911883acf35190727d3c827a8edff34f1be61996",
+    "payload/documents/active/agentmesh-657ebab7.md": "d1b1af27fab54a396eb2e9c3689a72d090953853ba4d1306102a76d2fbb42f87",
+    "payload/documents/active/agentmesh-8f0c84e1.md": "ec87e850aff76357f0b42b393362e187a3f731799e041447e6845b18c3e94e5b",
+    "payload/documents/active/agentmesh-ui-dae86821.md": "a22f624bf0c870b0880bcd5c9db39e9f10a6c9da0aea27fc013cb3e50a65b21e",
+    "payload/documents/active/agentmesh-6884e85-9687e05-bf2c9003.md": "e35ad97168a3ce625cdcd6810419bf6fc2bee4b6a60964a773dbc4cb0fbb7306",
+    "payload/documents/active/tcm-ehr-qc-idea-2026-11-10-12c15ac4.md": "6fdf9a1a5f7ba5213fa7d5f94716ce5732a54399d01f693516a5de43c9d577b8",
+    "payload/documents/active/dsh-desktop-web-annotate-e8c74467.md": "578a4c9872d4718013b38e179eda3ebbbfc19c7ca988f210ba25984494dd1606",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
